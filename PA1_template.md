@@ -85,7 +85,7 @@ period where steps are low.
 The **maximum** number of steps is taken at hour 8.35 (interval 835)
 during the day.
 
-The average steps per five minute interval is shown as a dashed line for reference.
+The average steps per five minute interval is shown as a dotted line for reference.
 
 
 ## Imputing missing values
