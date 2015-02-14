@@ -1,7 +1,7 @@
 # Reproduceable Research - Project 1 for Kelly O'Brien
 
 The following material is from the original github repository that was
-cloned for this assignment.
+forked for this assignment.
 
 
 ## Introduction
