@@ -1,3 +1,9 @@
+# Reproduceable Research - Project 1 for Kelly O'Brien
+
+The following material is from the original github repository that was
+cloned for this assignment.
+
+
 ## Introduction
 
 It is now possible to collect a large amount of data about personal
