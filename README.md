@@ -1,4 +1,4 @@
-# Reproduceable Research - Project 1 for Kelly O'Brien
+# Reproduceable Research - Project 1
 
 The following material is from the original github repository that was
 forked for this assignment.
