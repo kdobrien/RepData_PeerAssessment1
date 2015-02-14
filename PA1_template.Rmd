@@ -73,7 +73,7 @@ ggplot(df4, aes(x = hour, y = steps)) +
     coord_cartesian(xlim=c(0,24)) +
     scale_x_continuous( breaks=c(0:24)) +
     ylab("average steps per 5 minute interval") + 
-    xlab("time of day (0 = midnight, 12 = noon)") + 
+    xlab("time of day for 5 minute interval (0 = midnight, 12 = noon)") + 
     ggtitle("Total steps per interval (averaged over all days)")
 
 ```
@@ -89,6 +89,10 @@ The average steps per five minute interval is shown as a dashed line for referen
 
 
 ## Imputing missing values
+
+This section analyzes the data after replacing missing values with the average value
+for the same interval as the missing data value.
+
 ```{r imputeMissingValues}
 missing = is.na(df2$steps) # steps is only column with missing values
 numMissing = sum(missing)
@@ -166,7 +170,7 @@ ggplot(df7, aes(x = hour, y = imputedSteps)) +
     coord_cartesian(xlim=c(0,24)) +
     scale_x_continuous( breaks=seq(0,24,by = 2)) +
     ylab("average steps per 5 minute interval") + 
-    xlab("time of day (0 = midnight, 12 = noon)") + 
+    xlab("time of day for 5 minute interval (0 = midnight, 12 = noon)") + 
     ggtitle("Total steps per interval (averaged over all days)") + 
     facet_grid( . ~ dayType) +
     theme(panel.margin = unit(1, "lines"))
